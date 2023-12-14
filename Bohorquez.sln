@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bohorquez", "Bohorquez.csproj", "{74E5A210-E05B-4A67-9417-08CA78E8AAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "..\Logica\Logica.csproj", "{3480A6F6-3452-4F13-A236-558002EA556A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "..\Datos\Datos.csproj", "{C283CDC1-1CA3-44B7-B3C4-AA782E1C225A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E5A210-E05B-4A67-9417-08CA78E8AAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E5A210-E05B-4A67-9417-08CA78E8AAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E5A210-E05B-4A67-9417-08CA78E8AAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E5A210-E05B-4A67-9417-08CA78E8AAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3480A6F6-3452-4F13-A236-558002EA556A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3480A6F6-3452-4F13-A236-558002EA556A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3480A6F6-3452-4F13-A236-558002EA556A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3480A6F6-3452-4F13-A236-558002EA556A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C283CDC1-1CA3-44B7-B3C4-AA782E1C225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C283CDC1-1CA3-44B7-B3C4-AA782E1C225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C283CDC1-1CA3-44B7-B3C4-AA782E1C225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C283CDC1-1CA3-44B7-B3C4-AA782E1C225A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBFF26A8-1FD9-418C-9D78-9E6CEE2010FD}
+	EndGlobalSection
+EndGlobal
