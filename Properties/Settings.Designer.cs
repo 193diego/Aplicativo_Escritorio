@@ -26,7 +26,8 @@ namespace Bohorquez.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-P821MMUI;Initial Catalog=Datos;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-P821MMUI;Initial Catalog=CAMISAS_POLOS;Integrated Security=Tru" +
+            "e")]
         public string DatosConnectionString {
             get {
                 return ((string)(this["DatosConnectionString"]));
