@@ -27,6 +27,7 @@ namespace Bohorquez
                 txtClave.PasswordChar = '*';
             }
 
+
         }
 
         private void materialButton1_Click(object sender, EventArgs e)
@@ -38,7 +39,7 @@ namespace Bohorquez
 
             if (logicaUsuario.AutenticarUsuario(nombreUsuario, clave))
             {
-                frmmenu formulario = new frmmenu();
+                frmmenu formulario = new frmmenu(nombreUsuario);
                 formulario.Show();
                 this.Hide(); // O puedes cerrar el formulario actual si no es necesario mantenerlo abierto
             }

@@ -79,6 +79,11 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAMISAS_POLOSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CAMISAS_POLOSDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="conexion.cs" />
     <Compile Include="frmmenu.cs">
       <SubType>Form</SubType>
@@ -111,6 +116,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="CAMISAS_POLOSDataSet.xsc">
+      <DependentUpon>CAMISAS_POLOSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CAMISAS_POLOSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CAMISAS_POLOSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CAMISAS_POLOSDataSet.xss">
+      <DependentUpon>CAMISAS_POLOSDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -150,10 +166,38 @@
     <None Include="Resources\ojo.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{c283cdc1-1ca3-44b7-b3c4-aa782e1c225a}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Logica\Logica.csproj">
       <Project>{3480A6F6-3452-4F13-A236-558002EA556A}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\algodon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hilo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiqueta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entretela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Espera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
